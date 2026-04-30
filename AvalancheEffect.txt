@@ -1,0 +1,5 @@
+echo -n "Trust" > msg1.txt
+echo -n "Rust" > msg2.txt
+
+openssl sha256 msg1.txt
+openssl sha256 msg2.txt
